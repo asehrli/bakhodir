@@ -874,7 +874,6 @@ form label {
 }
 
 #fh5co-header {
-    height: 70vh;
     border-bottom-left-radius: 6rem;
     border-bottom-right-radius: 6rem;
     box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.7);
@@ -930,6 +929,14 @@ form label {
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {
         font-size: 40px;
+    }
+
+    #fh5co-header {
+        height: 70vh;
+        border-bottom-left-radius: 6rem;
+        border-bottom-right-radius: 6rem;
+        box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.7);
+        overflow: hidden;
     }
 }
 
@@ -2016,3 +2023,10 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.fh5co-heading-p {
+    font-size: 10em;
+    font-family: 'Tangerine',serif;
+    color: deeppink;
+    padding: 0
+}
