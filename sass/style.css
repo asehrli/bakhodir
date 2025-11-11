@@ -325,10 +325,14 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .fh5co-cover .display-t,
     .fh5co-cover .display-tc {
         height: 600px;
+    }
+
+    #enter-name {
+        color: black;
     }
 }
 
@@ -1128,6 +1132,10 @@ form label {
         text-transform: uppercase;
         font-size: 8px;
         /* words */
+    }
+
+    .display-tc h1 {
+        font-size: 6em;
     }
 }
 
