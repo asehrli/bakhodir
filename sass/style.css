@@ -1083,6 +1083,10 @@ form label {
     .fh5co-section {
         padding: 3em 0;
     }
+
+    .simply-countdown {
+        scale: .5;
+    }
 }
 
 .fh5co-section-gray {
